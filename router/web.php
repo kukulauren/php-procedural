@@ -6,5 +6,7 @@ $routes=[
     "/courses"=>"courses@index",
     "/course-delete"=>"courses@delete",
     "/batch"=>"batch@index",
-    "/batch-delete"=>"batch@delete"
+    "/batch-delete"=>"batch@delete",
+    "/api-courses"=>"api@courses",
+    "/api-batches"=>"api@batches"
 ];

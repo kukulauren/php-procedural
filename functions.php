@@ -73,3 +73,8 @@ function get(string $sql):mixed{
 function redirect(string $url):void{
     header("Location:$url");
 }
+
+function json(array $data):void{
+    header("Content-Type:application/json");
+    echo json_encode($data);
+}
